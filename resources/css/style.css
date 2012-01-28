@@ -98,14 +98,26 @@ body{
     border-radius: 10px;
 }
 
-#badge{
-    opacity: 0.3;
-    position: fixed;
+#os_logo{
     bottom: 10px;
-    right: 10px;
+    left: 10px;
+    height: 100px;
+    width: 100px;
+    background:  url('/foss/resources/img/open-source-logo.png');
+}
+
+#badge{
+    bottom: 10px;
+    right: -10px;
     height: 64px;
     width: 197px;
     background:  url('/foss/resources/img/html5-badge-h-css3-graphics-semantics.png');
+}
+
+#badge, #os_logo{
+    opacity: 0.3;
+    position: fixed;
+    
     
     -webkit-transition: opacity 0.5s;
     -moz-transition: opacity 0.5s;
@@ -114,7 +126,7 @@ body{
     transition: opacity 0.5s;
 }
 
-#badge:hover{
+#badge:hover, #os_logo:hover{
     opacity: 1;
 }
 
@@ -131,6 +143,7 @@ body{
 }
 
 .section-title{
+    font-family: ExpletusSans;
     position: absolute;
     top: 30%;
     text-align: center;
@@ -138,6 +151,54 @@ body{
     font-size: 50pt;
     line-height: 110px;
     width: inherit;
+}
+
+.section-title{
+    font-size: 50pt;
+}
+
+.with_logo{
+    top: 10%;
+}
+
+.lower{
+    top: 40%;
+}
+
+#ty{
+    margin-top: 10px;
+    font-family: ExpletusSans;
+    text-align: center;
+    font-size: 50pt;
+}
+
+.slide-title{
+    color: #FFF;
+    height: 120px;
+    font-size: 37pt;
+    line-height: 120px;
+}
+
+.slide-title-small{
+    font-size: 30pt;
+    line-height: 60px;
+}
+
+.no-title{
+    margin-top: 120px;
+}
+
+.slide-content{
+    /*height: 473px;*/    
+    font-size: 30pt;
+    line-height: 40pt;
+    padding: 15px 40px;
+    text-align: justify;
+}
+
+#impress.step-overview .step {
+  opacity: 1;
+  cursor: pointer;
 }
 
 em{
@@ -157,6 +218,11 @@ em{
 
 #slide_details p{
     text-align: right;
+}
+
+figure#foss_question_logo{
+    width: 300px;
+    margin: 0 auto;
 }
 
 /* EOF Content */
