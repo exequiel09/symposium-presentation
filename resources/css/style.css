@@ -133,9 +133,9 @@ body{
 .title{
     color: #EEE;
     font-family: ExpletusSans;
-    font-size: 50pt;
+    font-size: 60pt;
     padding: 20px;
-    line-height: 55pt;
+    line-height: 65pt;
     text-align: center;
     position: absolute;
     letter-spacing: normal;
@@ -175,7 +175,7 @@ body{
 .slide-title{
     color: #FFF;
     height: 120px;
-    font-size: 37pt;
+    font-size: 36pt;
     line-height: 120px;
 }
 
@@ -196,18 +196,30 @@ body{
     text-align: justify;
 }
 
-#impress.step-overview .step {
-  opacity: 1;
-  cursor: pointer;
-}
-
 em{
     color: #ff7700;
+}
+
+.lv0_indent{
+    margin-left: 30px;
+}
+
+.lv1_indent{
+    margin-left: 60px;
+}
+
+.lv2_indent{
+    margin-left: 120px;
 }
 
 /* EOF Defaults */
 
 /* Content */
+
+#impress.step-overview .step {
+  opacity: 1;
+  cursor: pointer;
+}
 
 #slide_details{
     font-size: 25px;
@@ -237,10 +249,6 @@ figure#foss_question_logo{
     width: 780px;
     padding: 10px 10px 0;
     margin: 20px auto;
-
-    border-radius: 10px;
-    border: 1px solid #E4C652;
-    background: #EEDC94;
 }
 
 .fallback-message p {
@@ -251,6 +259,23 @@ figure#foss_question_logo{
     position: relative;
     opacity: 1;
     margin: 20px auto;
+}
+
+.impress-not-supported .slide{
+    background: #333;
+    border: #666 1px solid;
+    
+    -webkit-box-shadow: 0 4px 16px rgba(255,255,255,0.5);
+    -moz-box-shadow: 0 4px 16px rgba(255,255,255,0.5);
+    box-shadow: 0 4px 16px rgba(255,255,255,0.5);
+}
+
+.impress-not-supported .slide .slide-title{
+    padding: 10px 15px 0 15px;
+}
+
+.impress-not-supported .slide .slide-content{
+    padding: 15px 40px;
 }
 
 .impress-not-supported .fallback-message {
