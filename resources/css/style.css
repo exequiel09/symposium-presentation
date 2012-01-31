@@ -246,6 +246,10 @@ figure#foss_question_logo{
     opacity: 0.9;
 }
 
+#name{
+    font-size: 40pt;
+}
+
 #email{
     margin-bottom: 20px !important;
     margin-left: -0.3em;
