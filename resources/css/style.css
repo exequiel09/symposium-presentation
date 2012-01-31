@@ -241,6 +241,11 @@ figure#foss_question_logo{
     margin-bottom: 10px;
 }
 
+#thank-you p img{
+    vertical-align: middle;
+    opacity: 0.9;
+}
+
 #email{
     margin-bottom: 20px !important;
     margin-left: -0.3em;
@@ -248,7 +253,7 @@ figure#foss_question_logo{
 
 a{
     color: #EEE;
-    padding: 0.1em 0.3em;
+    padding: 0.2em 0.3em 0.4em 0.3em;
     text-decoration: none;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
@@ -267,6 +272,11 @@ a:link{
 
 a:link:hover {
     background: rgba(255,255,255, 0.2);
+}
+
+#projects td{
+    text-align: center;
+    padding: 3px;
 }
 
 /* EOF Content */
