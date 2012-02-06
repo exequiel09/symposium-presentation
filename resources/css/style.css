@@ -278,7 +278,12 @@ a:link:hover {
     background: rgba(255,255,255, 0.2);
 }
 
-#projects td{
+.img_tb{
+    width: 824px;
+    margin: 0 auto;
+}
+
+.img_tb td{
     text-align: center;
     padding: 3px;
 }
