@@ -13,32 +13,6 @@
     src: url('/symposium-presentation/resources/fonts/ExpletusSans-Regular.ttf');
 }
 
-@font-face{
-    font-family: StarAvenue;
-    src: url('/symposium-presentation/resources/fonts/staravenue.ttf');
-}
-
-@font-face{
-    font-family: Ripe;
-    src: url('/symposium-presentation/resources/fonts/ripebold.otf');
-}
-
-@font-face{
-    font-family: Existence;
-    src: url('/symposium-presentation/resources/fonts/Existence-Light.otf');
-}
-
-@font-face{
-    font-family: Capture;
-    src: url('/symposium-presentation/resources/fonts/Capture_it.ttf');
-}
-
-
-@font-face{
-    font-family: LeagueGothic;
-    src: url('/symposium-presentation/resources/fonts/League_Gothic.otf');
-}
-
 body{        
     font-family: DroidSans;    
     min-height: 740px;   
