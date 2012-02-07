@@ -1,0 +1,41 @@
+<IfModule mod_headers.c>
+    #Cache Images
+    <FilesMatch "\.(gif|jpg|jpeg|png|ico)$">	
+        Header set Cache-Control "max-age=7257600"
+        Header set Pragma public        
+    </FilesMatch>
+    #cache css and js
+    <FilesMatch "\.(css|js)$">		
+        Header set Cache-Control "max-age=604800, public, must-revalidate"
+        Header set Pragma public
+        Header append Vary Accept-Encoding        
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    #1 month
+    ExpiresByType image/x-icon A2419200
+    ExpiresByType image/gif A7257600
+    ExpiresByType image/jpeg A7257600
+    ExpiresByType image/png A7257600
+
+    #1 week
+    ExpiresByType text/css A604800
+    ExpiresByType text/javascript A604800
+    ExpiresByType application/x-javascript A604800
+    <FilesMatch "\.(php)$">
+        ExpiresActive Off
+    </FilesMatch>
+</IfModule>
+
+<FilesMatch "\.(html|css|js)$">
+    AddDefaultCharset utf-8
+</FilesMatch>
+
+<IfModule mod_deflate.c>
+    <FilesMatch "\.(html|js|css)$">
+        SetOutputFilter DEFLATE
+    </FilesMatch>
+</IfModule>
