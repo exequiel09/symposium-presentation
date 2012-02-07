@@ -5,38 +5,38 @@
 
 @font-face{
     font-family: DroidSans;
-    src: url('/foss/resources/fonts/DroidSans.ttf');
+    src: url('/symposium-presentation/resources/fonts/DroidSans.ttf');
 }
 
 @font-face{
     font-family: ExpletusSans;
-    src: url('/foss/resources/fonts/ExpletusSans-Regular.ttf');
+    src: url('/symposium-presentation/resources/fonts/ExpletusSans-Regular.ttf');
 }
 
 @font-face{
     font-family: StarAvenue;
-    src: url('/foss/resources/fonts/staravenue.ttf');
+    src: url('/symposium-presentation/resources/fonts/staravenue.ttf');
 }
 
 @font-face{
     font-family: Ripe;
-    src: url('/foss/resources/fonts/ripebold.otf');
+    src: url('/symposium-presentation/resources/fonts/ripebold.otf');
 }
 
 @font-face{
     font-family: Existence;
-    src: url('/foss/resources/fonts/Existence-Light.otf');
+    src: url('/symposium-presentation/resources/fonts/Existence-Light.otf');
 }
 
 @font-face{
     font-family: Capture;
-    src: url('/foss/resources/fonts/Capture_it.ttf');
+    src: url('/symposium-presentation/resources/fonts/Capture_it.ttf');
 }
 
 
 @font-face{
     font-family: LeagueGothic;
-    src: url('/foss/resources/fonts/League_Gothic.otf');
+    src: url('/symposium-presentation/resources/fonts/League_Gothic.otf');
 }
 
 body{        
@@ -103,7 +103,7 @@ body{
     left: 10px;
     height: 100px;
     width: 100px;
-    background:  url('/foss/resources/img/open-source-logo.png');
+    background:  url('/symposium-presentation/resources/img/open-source-logo.png');
 }
 
 #badge{
@@ -111,7 +111,7 @@ body{
     right: -10px;
     height: 64px;
     width: 197px;
-    background:  url('/foss/resources/img/html5-badge-h-css3-graphics-semantics.png');
+    background:  url('/symposium-presentation/resources/img/html5-badge-h-css3-graphics-semantics.png');
 }
 
 #badge, #os_logo{
