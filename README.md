@@ -1,6 +1,6 @@
 This presentation is about Careers in Free and Open Source Software built with [impress.js](http://bartaz.github.com/impress.js).
 
-Copyright (c) 2012 Exequiel Ceasar Navarrete
+Copyright (c) 2012 Exequiel Caesar Navarrete
 
 <small>
 MIT License
